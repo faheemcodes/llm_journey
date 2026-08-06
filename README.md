@@ -6,7 +6,7 @@ I am learning about Large Language Models (LLMs) using an AI tool, and I created
 
 ## 📂 Repository Structure
 
-- `phase_1/`: Contains my initial exercises and Python scripts (currently covering up to Day 7 - Mini Projects).
+- `phase_1/`: Contains my initial exercises and Python scripts (currently covering up to Day 8 - Config & Secrets).
 
 ## 🎯 Goal
 To track my daily progress, practice coding, and build a solid foundation in working with LLMs.
