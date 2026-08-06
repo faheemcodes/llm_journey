@@ -13,13 +13,15 @@ for num in range(1,20):
 
 #Task 2
 
-# requests = [15, 30, 45, 10, 25, 50]
-# total_tokens = 0
+requests = [15, 30, 45, 10, 25, 50]
+total_tokens = 0
 
-# for req in requests:
-#     total_tokens = total_tokens + req
-#     if total_tokens > 100:
-#         print(f"Budget Exceeded! Stopping stream at { total_tokens } tokens.")
-#         break
-#     else:
-#         print(f"Processed request. Current total: { total_tokens } tokens.")
+for req in requests:
+    total_tokens = total_tokens + req
+    if total_tokens > 100:
+        print(f"Budget Exceeded! Stopping stream at { total_tokens } tokens.")
+        break
+    else:
+        print(f"Processed request. Current total: { total_tokens } tokens.")
+
+

@@ -21,13 +21,19 @@ import json
 
 
 
-
 def calculate_token_cost(username, prompt_text):
     words = prompt_text.split()
     leng = len(words)
     cost = 0.002 * leng
     
-    return print(f"User {username} sent a prompt with {leng} words. Estimated cost: ${cost}")
+    message = f"User {username} sent a prompt with {leng} words. Estimated cost: ${cost}"
+    return message
 
-print( calculate_token_cost("Faheem", "What is the name of pakistan's capital?"))
-print( calculate_token_cost("Hamza", "What is the real name of the institute?"))
+print("------First Request------")
+req_one = calculate_token_cost("Faheem", "What is the name of pakistan's capital?")
+print(req_one)
+
+
+print("------Second Request------")
+req_two = calculate_token_cost("Hamza", "What is the real name of the institute?")
+print(req_two)
