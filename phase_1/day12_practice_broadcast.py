@@ -1,5 +1,5 @@
 import asyncio
-
+# Practice Task 1
 async def broadcast_prompt(model_id, prompt_text, response_delay):
     print(f"[{model_id}] Processing prompt: '{prompt_text}'...")
     await asyncio.sleep(response_delay)
