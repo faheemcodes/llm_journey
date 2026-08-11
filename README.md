@@ -7,7 +7,7 @@ I am learning about Large Language Models (LLMs) using an AI tool, and I created
 ## 📂 Repository Structure
 
 - `phase_1/`: Contains my initial exercises and Python scripts (currently covering up to Day 15).
-- `phase_2/`: Contains Phase 2 of my LLM journey, focusing on **Transformers, Tokenizations, & High-Dimensional Embeddings!**
+- `phase_2/`: Contains Phase 2 of my LLM journey (currently up to Day 17), focusing on **Transformers, Tokenizations, & High-Dimensional Embeddings!**
 
 ## 🎯 Goal
 To track my daily progress, practice coding, and build a solid foundation in working with LLMs.
