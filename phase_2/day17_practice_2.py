@@ -3,17 +3,14 @@ from dotenv import load_dotenv
 from google import genai
 
 load_dotenv()
-
 client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY_2"))
 
-# Task 2: A batch of multiple mixed technical phrases
 phrases = [
     "Python asynchronous concurrency with asyncio",
     "Securing private enterprise data via local LLMs",
     "High-dimensional vector embedding coordinates"
 ]
 
-# Send the entire list in one single batch request
 response = client.models.embed_content(
     model="gemini-embedding-001",
     contents=phrases

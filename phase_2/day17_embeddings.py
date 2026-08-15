@@ -2,9 +2,9 @@ import os
 from dotenv import load_dotenv
 from google import genai
 
-load_dotenv()
+## EMBEDDINGS
 
-# Initialize the modern client
+load_dotenv()
 client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY_2"))
 
 text_to_embed = "Securing private enterprise data with local LLMs."
